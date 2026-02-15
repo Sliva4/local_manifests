@@ -12,11 +12,14 @@
         <remote name="royna"
                 fetch="https://github.com/Roynas-Android-Playground"
 		revision="lineage-20"/>
+        <remote name="sliva"
+		fetch="https://github.com/Sliva4"
+		revision="android-13"/>
 
         <!-- Eureka -->
         <project path="device/samsung" name="android_device_samsung_exynos7885" remote="eureka"/>
         <project path="kernel/samsung/exynos7885" name="Eureka-Kernel-Exynos7885-Q-R-S" remote="eureka" revision="R15_rom" />
-        <project path="vendor/samsung" name="android_vendor_samsung_exynos7885" remote="eureka"/>
+        <project path="vendor/samsung" name="android_vendor_samsung_exynos7885" remote="sliva"/>
 
         <!-- LineageOS -->
         <project path="hardware/samsung_slsi/libbt"
