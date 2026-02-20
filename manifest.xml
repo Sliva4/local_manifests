@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        <remote name="eureka"
-		fetch="https://github.com/eurekadevelopment"
-		revision="android-13"/>
 	<remote name="eureka-slsi-linaro"
 		fetch="https://github.com/eurekadevelopment"
 		revision="lineage-19.1"/>
@@ -18,7 +15,7 @@
 
         <!-- Eureka -->
         <project path="device/samsung" name="android_device_samsung_exynos7885" remote="sliva"/>
-        <project path="kernel/samsung/exynos7885" name="Eureka-Kernel-Exynos7885-Q-R-S" remote="eureka" revision="R15_rom" />
+        <project path="kernel/samsung/exynos7885" name="Eureka-Kernel" remote="sliva" revision="R15_rom" />
         <project path="vendor/samsung" name="android_vendor_samsung_exynos7885" remote="sliva"/>
 
         <!-- LineageOS -->
