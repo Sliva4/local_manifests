@@ -11,6 +11,9 @@
 		fetch="https://github.com/LineageOS"
 		review="review.lineageos.org"
 		revision="lineage-22.2"/>
+	<remote name="sliva"
+		fetch="https://github.com/Sliva4"
+		revision="android-13"/>
 
         <!-- Devices -->
 	<project path="device/samsung/a10" name="device_samsung_a10" remote="royna"/>
@@ -22,7 +25,7 @@
 	<project path="device/samsung/exynos7885-common" name="device_samsung_exynos7885-common" remote="royna"/>
 
         <!-- Kernel -->
-	<project path="kernel/samsung/exynos7885" name="kernel_samsung_exynos7885" recurse_submodules="true" remote="royna" revision="EurekaV2" />
+	<project path="kernel/samsung/exynos7885" name="kernel_samsung_exynos7885" recurse_submodules="true" remote="sliva" revision="EurekaV2" />
 
         <!-- Vendors -->
 	<project path="vendor/samsung/a10" name="vendor_samsung_a10" remote="royna"/>
